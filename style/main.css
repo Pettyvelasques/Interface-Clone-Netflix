@@ -60,9 +60,6 @@ header{
     color: var(--branco);
     margin-left: 1.5vw;
 }
-.menu .menu-01 .menu-principal a:hover{
-    cursor: pointer;
-}
 
 .menu .menu-02{
     display: flex;
