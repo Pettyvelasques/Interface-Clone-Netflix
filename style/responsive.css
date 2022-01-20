@@ -1,0 +1,108 @@
+@media screen and (max-width:950px) {
+    .menu{
+        height: 8vh;
+    }
+}
+
+@media screen and (max-width:840px){
+    .menu .menu-01 .logotipo{
+        font-size: 2.6vw;
+    }
+    .menu .menu-01 .menu-principal a{
+        font-size: 1.5vw;
+    }
+    .menu .menu-02 .menu-secundario a{
+        font-size: 2vw;
+    }
+    .menu .menu-02 .menu-secundario .imagem-user-main img{
+        max-height: 5.5vh;
+    }
+    .botao{
+        padding: 1vw 2.5vw;
+        font-size: 2vw;
+    }
+    .rodape p{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:800px){
+    .secao-filmes{
+        font-size: 1.8vw;
+    }
+    .secao-geracoes{
+        font-size: 1.8vw;
+    }
+    .container{
+        min-height: 60vw;
+    }
+}
+@media screen and (max-width:600px){
+    .container{
+        min-height: 70vw;
+    }
+}
+@media screen and (max-width:570px){
+    .menu .menu-01 .logotipo{
+        font-size: 2.2vw;
+    }
+    .menu .menu-01 .menu-principal a{
+        font-size: 1.3vw;
+    }
+    .menu .menu-02 .menu-secundario a{
+        font-size: 2vw;
+    }
+    .menu .menu-02 .menu-secundario .imagem-user-main img{
+        max-height: 5.5vh;
+    }
+    .botao{
+        padding: 1vw 2.5vw;
+        font-size: 2vw;
+    }
+    .rodape p{
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width:480px){
+    .menu .menu-01 .logotipo{
+        font-size: 3.4vw;
+    }
+    .menu .menu-01 .menu-principal a{
+        font-size: 1.8vw;
+    }
+    .menu .menu-02 .menu-secundario a{
+        font-size: 2.8vw;
+    }
+    .botao{
+        padding: 1vw 2.5vw;
+        font-size: 2.2vw;
+    }
+    .filme-principal .titulo{
+        font-size: 2.2vw;
+    }
+    .filme-principal .sinopse{
+        font-size: 1.7vw;
+    }
+    .rodape p{
+        font-size: 1.8vw;
+    }
+}
+@media screen and (max-width:425px){
+    .secao-filmes{
+        font-size: 2vw;
+    }
+    .secao-geracoes{
+        font-size: 2vw;
+    }
+    .container{
+        min-height: 80vw;
+    }
+}
+@media screen and (max-width:360px){
+    .secao-filmes{
+        font-size: 3vw;
+    }
+    .secao-geracoes{
+        font-size: 3vw;
+    }
+}

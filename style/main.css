@@ -1,0 +1,234 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: grey;
+    --branco: #fff;
+    --branco2: rgb(211, 211, 211);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;     
+}
+
+header{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    position: fixed;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 11vh;
+    width: 92vw;
+}
+.menuFixo{
+    background-color: var(--preto);
+    z-index: 2;
+}
+.menu .menu-01{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu .menu-01 .logotipo{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,.1);
+    font-size: 2.2vw;
+}
+.menu .menu-01 .logotipo a{
+    text-decoration: none;
+    color: var(--vermelho);
+}
+.menu .menu-01 .menu-principal{
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+}
+.menu .menu-01 .menu-principal a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: var(--branco);
+    margin-left: 1.5vw;
+}
+
+.menu .menu-02{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.menu .menu-02 .menu-secundario{
+    display: flex;
+    align-items: center;
+}   
+.menu .menu-02 .menu-secundario a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: var(--branco);
+    font-weight: bolder;
+    margin-left: 2vw;
+}
+.menu .menu-02 .menu-secundario .imagem-user-main{
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+.menu .menu-02 .menu-secundario .imagem-user-main img{
+    border-radius: 14%;
+    max-height: 5vh;
+}
+.menu .menu-02 .menu-secundario .imagem-user-main i{
+    margin-left: 0.5vw;
+}
+
+
+main{
+    /* min-Height: 180vh; */
+}
+.filme-principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/filme-principal.png');
+
+    height: auto;
+    background-size: cover;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 4vw;
+    padding-right: 4vw;    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    min-height: 50vw;
+}
+
+.filme-principal .descricao{
+    border-radius: 0.4vw;
+    background-color: rgba(0,0,0,.2);
+    padding: 0.5vw;
+    min-height: 10vh;
+    max-width: 40vw;
+    color: var(--branco);
+}
+.filme-principal .titulo{
+    margin-top: 0.7vw;
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: var(--branco);
+    display: flex;
+    align-items: center;    
+}
+#titulo-Principal{
+    display: block;
+}
+#titulo-Series{
+    display: none;
+}
+#titulo-Filmes{
+    display: none;
+}
+.filme-principal .titulo img{
+    height: 2.4vw;
+    margin-right: 1vw;
+}
+.filme-principal .sinopse{
+    margin-top: 1vw;
+    margin-bottom: 0.7vw;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.4vw;
+}
+
+.botoes{
+    padding-top: 1vw;
+}
+.botao{
+    background-color: rgba(0,0,0,.40);
+    border:none;
+    border-radius: 0.4vw;
+    color: white;
+
+
+    padding: 1vw 3vw;
+    margin-right: 1vw;
+    font-size: 1.5vw;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 0.6vw;
+}
+
+.container-carousel{
+    height: auto;
+    padding-left: 4vw;
+    padding-right: 4vw;    
+}
+.carousel-filmes{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.secao-filmes{
+    width: 100%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: var(--branco2);
+}
+.carousel-geracoes{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.secao-geracoes{
+    width: 100%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: var(--branco2);
+}
+.owl-carousel{
+    margin-top: 1vh;
+}
+.box-filme{
+    border-radius: 0.4vw;
+    display: block;
+}
+.box-geracao{
+    border-radius: 0.4vw;
+    display: block;
+}
+footer{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.rodape{
+    height: auto;
+    width: 100%;
+}
+.rodape p{
+    padding: 1vw;
+    color: var(--cinza);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
